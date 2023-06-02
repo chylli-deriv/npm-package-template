@@ -1,6 +1,6 @@
 {
   "name": "@chylli-deriv/abc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "https://github.com/chylli-deriv/abc",
   "description": "github package example",
   "main": "index.js",
