@@ -25,11 +25,11 @@ jobs:
           # Optional scope for authenticating against scoped registries.
           # Will fall back to the repository owner when using the GitHub Packages registry (https://npm.pkg.github.com/).
           # Default: ''
-          scope: ""
+          scope: "@chylli-deriv"
 
           # Set always-auth option in npmrc file.
           # Default: ''
-          always-auth: ""
+          always-auth: "true"
 
       - name: Install dependencies
         run: npm ci
