@@ -17,6 +17,19 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20
+          # Optional registry to set up for auth. Will set the registry in a project level .npmrc and .yarnrc file,
+          # and set up auth to read in from env.NODE_AUTH_TOKEN.
+          # Default: ''
+          registry-url: "https://npm.pkg.github.com"
+
+          # Optional scope for authenticating against scoped registries.
+          # Will fall back to the repository owner when using the GitHub Packages registry (https://npm.pkg.github.com/).
+          # Default: ''
+          scope: ""
+
+          # Set always-auth option in npmrc file.
+          # Default: ''
+          always-auth: ""
 
       - name: Install dependencies
         run: npm ci
