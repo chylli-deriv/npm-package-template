@@ -8,6 +8,10 @@
     "test": "echo \"Dummy test\"",
     "build": "echo \"Bulding\""
   },
+  "dependencies": {
+    "@chylli-deriv/abc": "^1.0.2",
+    "axios": "^0.24.0"
+  },
   "author": "",
   "license": "ISC"
 }
