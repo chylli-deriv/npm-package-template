@@ -5,7 +5,8 @@
   "description": "github package example",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Dummy test\""
+    "test": "echo \"Dummy test\"",
+    "build": "echo \"Bulding\""
   },
   "author": "",
   "license": "ISC"
