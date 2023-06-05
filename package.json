@@ -1,7 +1,7 @@
 {
-  "name": "@chylli-deriv/npm-package-template", // change to your package name
+  "name": "@chylli-deriv/npm-package-template",
   "version": "1.0.2",
-  "repository": "https://github.com/chylli-deriv/npm-package-template", // change to your repository URL
+  "repository": "https://github.com/chylli-deriv/npm-package-template",
   "description": "github package example",
   "main": "index.js",
   "scripts": {
