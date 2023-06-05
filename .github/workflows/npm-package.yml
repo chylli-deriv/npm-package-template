@@ -43,7 +43,7 @@ jobs:
         run: npm run build
 
       - name: check .npmrc
-        run: ls
+        run: ls -a
       - name: Publish package
         run: npm publish
         env:
