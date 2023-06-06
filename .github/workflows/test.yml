@@ -1,10 +1,7 @@
-name: Publish workflow
-run-name: Publish workflow
-
+name: Test workflow
+run-name: Test workflow
 on:
-  push:
-    branches:
-      - master
+  pull_request:
 
 jobs:
   build:
@@ -35,8 +32,3 @@ jobs:
 
       - name: Build package
         run: npm run build
-
-      - name: Publish package
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
